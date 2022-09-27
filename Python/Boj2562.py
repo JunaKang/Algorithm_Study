@@ -1,5 +1,5 @@
 import sys
-a = [int(sys.stdin.readline().strip()) for _ in range(9)]
+a = list(int(input()) for _ in range(9))
 MAX = a[0]
 for i in a[1:]:
     if i > MAX:
