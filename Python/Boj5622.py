@@ -6,3 +6,6 @@ for i in range(len(word)):
         if word[i] in j:
             sum += alphabet.index(j) + 3
 print(sum)
+
+
+
