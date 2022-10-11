@@ -1,10 +1,8 @@
+word =input()
+croatia = ['c=','c-','dz=','d-','lj','nj','s=','z=']
 
-word = input()
-cnt = len(word)
-croatia = ['c=','c-','d-','lj','nj','s=','z=','dz=']
 for i in croatia:
     if i in word:
-        cnt -= 1
-print(cnt)
+        word = word.replace( i, "*" )
 
-//미완성
+print(len(word))
